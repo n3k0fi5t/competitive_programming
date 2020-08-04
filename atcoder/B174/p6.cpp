@@ -57,6 +57,7 @@ int main(int argc, char *argv[])
 
     for (int i = 0; i < n; i++) {
         cin >> c[i+1];
+        bit.add(i+1, 1);
     }
 
     for (int i = 0; i < q; i++) {
