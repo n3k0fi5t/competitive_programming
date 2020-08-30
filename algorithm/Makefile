@@ -1,7 +1,7 @@
 .PHONY = clean all run
 
 CC      = g++-8
-CPPFLASGS = -std=c++11 -Wshadow -Wall -fsanitize=address
+CPPFLASGS = -std=c++14 -Wshadow -fsanitize=address
 
 TARGET  := run
 objs    := ${CPPCOMPILE}
